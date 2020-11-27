@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		992EB43C91081C02A849E7D3 /* Pods_StroyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF6BBDF186EF58929F28C8 /* Pods_StroyDemo.framework */; };
+		B589AFA32570A57B0045D337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFA22570A57B0045D337 /* AppDelegate.swift */; };
+		B589AFA72570A57B0045D337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFA62570A57B0045D337 /* ViewController.swift */; };
+		B589AFAC2570A57F0045D337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B589AFAB2570A57F0045D337 /* Assets.xcassets */; };
+		B589AFAF2570A57F0045D337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B589AFAD2570A57F0045D337 /* LaunchScreen.storyboard */; };
+		B589AFC12570A6570045D337 /* CubeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFBD2570A6570045D337 /* CubeAttributesAnimator.swift */; };
+		B589AFC22570A6570045D337 /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFBE2570A6570045D337 /* UIView+Anchor.swift */; };
+		B589AFC32570A6570045D337 /* FTAnimatedCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFBF2570A6570045D337 /* FTAnimatedCollectionLayout.swift */; };
+		B589AFC42570A6570045D337 /* FTLayoutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFC02570A6570045D337 /* FTLayoutAttributesAnimator.swift */; };
+		B589AFCA2570A9F80045D337 /* FTStoryPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFC92570A9F80045D337 /* FTStoryPreviewView.swift */; };
+		B589AFCD2570B15E0045D337 /* FTStoryPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFCC2570B15E0045D337 /* FTStoryPreviewCell.swift */; };
+		B589AFD12570CCAE0045D337 /* FTMediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFD02570CCAE0045D337 /* FTMediaModel.swift */; };
+		B589AFD62570D4820045D337 /* FTStroyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFD52570D4820045D337 /* FTStroyHeaderView.swift */; };
+		B589AFDA2570D4900045D337 /* FTStroyProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFD92570D4900045D337 /* FTStroyProcessView.swift */; };
+		B589AFDE2570DEAE0045D337 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFDD2570DEAE0045D337 /* UIView+Extension.swift */; };
+		B589AFE72570E5D60045D337 /* FTStroyPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFE62570E5D60045D337 /* FTStroyPlayerView.swift */; };
+		B589AFEC2570EEE90045D337 /* FTRetryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFEB2570EEE90045D337 /* FTRetryButton.swift */; };
+		B589AFF02570F19C0045D337 /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFEF2570F19C0045D337 /* UIImageView+Additions.swift */; };
+		B589AFF32570F2870045D337 /* FTStorySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFF22570F2870045D337 /* FTStorySupport.swift */; };
+		B589AFF72570F37E0045D337 /* FTStoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFF62570F37E0045D337 /* FTStoryCache.swift */; };
+		B589AFFB2570F3CC0045D337 /* FTImageRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFFA2570F3CC0045D337 /* FTImageRequestable.swift */; };
+		B589AFFE2570F4270045D337 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589AFFD2570F4270045D337 /* UIImageView+Extension.swift */; };
+		B589B0032570F6400045D337 /* FTVideoCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589B0022570F6400045D337 /* FTVideoCacheManager.swift */; };
+		B589B0062570FAFC0045D337 /* FTStoryPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589B0052570FAFC0045D337 /* FTStoryPreviewModel.swift */; };
+		B589B00A2570FB8B0045D337 /* FTStoryPriviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589B0092570FB8B0045D337 /* FTStoryPriviewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44BF6BBDF186EF58929F28C8 /* Pods_StroyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StroyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08C961B33195FC321712045 /* Pods-StroyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StroyDemo.release.xcconfig"; path = "Target Support Files/Pods-StroyDemo/Pods-StroyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B589AF9F2570A57B0045D337 /* StroyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StroyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B589AFA22570A57B0045D337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B589AFA62570A57B0045D337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B589AFAB2570A57F0045D337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B589AFAE2570A57F0045D337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B589AFB02570A57F0045D337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B589AFBD2570A6570045D337 /* CubeAttributesAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeAttributesAnimator.swift; sourceTree = "<group>"; };
+		B589AFBE2570A6570045D337 /* UIView+Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchor.swift"; sourceTree = "<group>"; };
+		B589AFBF2570A6570045D337 /* FTAnimatedCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTAnimatedCollectionLayout.swift; sourceTree = "<group>"; };
+		B589AFC02570A6570045D337 /* FTLayoutAttributesAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTLayoutAttributesAnimator.swift; sourceTree = "<group>"; };
+		B589AFC92570A9F80045D337 /* FTStoryPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTStoryPreviewView.swift; sourceTree = "<group>"; };
+		B589AFCC2570B15E0045D337 /* FTStoryPreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTStoryPreviewCell.swift; sourceTree = "<group>"; };
+		B589AFD02570CCAE0045D337 /* FTMediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTMediaModel.swift; sourceTree = "<group>"; };
+		B589AFD52570D4820045D337 /* FTStroyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTStroyHeaderView.swift; sourceTree = "<group>"; };
+		B589AFD92570D4900045D337 /* FTStroyProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTStroyProcessView.swift; sourceTree = "<group>"; };
+		B589AFDD2570DEAE0045D337 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B589AFE62570E5D60045D337 /* FTStroyPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTStroyPlayerView.swift; sourceTree = "<group>"; };
+		B589AFEB2570EEE90045D337 /* FTRetryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTRetryButton.swift; sourceTree = "<group>"; };
+		B589AFEF2570F19C0045D337 /* UIImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
+		B589AFF22570F2870045D337 /* FTStorySupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTStorySupport.swift; sourceTree = "<group>"; };
+		B589AFF62570F37E0045D337 /* FTStoryCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTStoryCache.swift; sourceTree = "<group>"; };
+		B589AFFA2570F3CC0045D337 /* FTImageRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTImageRequestable.swift; sourceTree = "<group>"; };
+		B589AFFD2570F4270045D337 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		B589B0022570F6400045D337 /* FTVideoCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTVideoCacheManager.swift; sourceTree = "<group>"; };
+		B589B0052570FAFC0045D337 /* FTStoryPreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTStoryPreviewModel.swift; sourceTree = "<group>"; };
+		B589B0092570FB8B0045D337 /* FTStoryPriviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTStoryPriviewController.swift; sourceTree = "<group>"; };
+		B7B2BF96E7374153EF3E12BE /* Pods-StroyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StroyDemo.debug.xcconfig"; path = "Target Support Files/Pods-StroyDemo/Pods-StroyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B589AF9C2570A57B0045D337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992EB43C91081C02A849E7D3 /* Pods_StroyDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51C37F25299F038754F4832D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7B2BF96E7374153EF3E12BE /* Pods-StroyDemo.debug.xcconfig */,
+				A08C961B33195FC321712045 /* Pods-StroyDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5B9E98EADC057CEEA743F2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44BF6BBDF186EF58929F28C8 /* Pods_StroyDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B589AF962570A57B0045D337 = {
+			isa = PBXGroup;
+			children = (
+				B589AFA12570A57B0045D337 /* StroyDemo */,
+				B589AFA02570A57B0045D337 /* Products */,
+				51C37F25299F038754F4832D /* Pods */,
+				A5B9E98EADC057CEEA743F2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B589AFA02570A57B0045D337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B589AF9F2570A57B0045D337 /* StroyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B589AFA12570A57B0045D337 /* StroyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B589AFBA2570A6040045D337 /* StroyModule */,
+				B589AFA22570A57B0045D337 /* AppDelegate.swift */,
+				B589AFA62570A57B0045D337 /* ViewController.swift */,
+				B589AFAB2570A57F0045D337 /* Assets.xcassets */,
+				B589AFAD2570A57F0045D337 /* LaunchScreen.storyboard */,
+				B589AFB02570A57F0045D337 /* Info.plist */,
+			);
+			path = StroyDemo;
+			sourceTree = "<group>";
+		};
+		B589AFBA2570A6040045D337 /* StroyModule */ = {
+			isa = PBXGroup;
+			children = (
+				B589B0082570FB750045D337 /* Controller */,
+				B589AFF52570F3710045D337 /* Support */,
+				B589AFDC2570DE800045D337 /* Extension */,
+				B589AFD42570D46A0045D337 /* View */,
+				B589AFCF2570CC880045D337 /* Model */,
+				B589AFC82570A9AE0045D337 /* PreView */,
+				B589AFBC2570A6380045D337 /* Animation */,
+			);
+			path = StroyModule;
+			sourceTree = "<group>";
+		};
+		B589AFBC2570A6380045D337 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B589AFBF2570A6570045D337 /* FTAnimatedCollectionLayout.swift */,
+				B589AFBD2570A6570045D337 /* CubeAttributesAnimator.swift */,
+				B589AFC02570A6570045D337 /* FTLayoutAttributesAnimator.swift */,
+				B589AFBE2570A6570045D337 /* UIView+Anchor.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		B589AFC82570A9AE0045D337 /* PreView */ = {
+			isa = PBXGroup;
+			children = (
+				B589AFC92570A9F80045D337 /* FTStoryPreviewView.swift */,
+				B589AFCC2570B15E0045D337 /* FTStoryPreviewCell.swift */,
+				B589AFE62570E5D60045D337 /* FTStroyPlayerView.swift */,
+			);
+			path = PreView;
+			sourceTree = "<group>";
+		};
+		B589AFCF2570CC880045D337 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B589AFD02570CCAE0045D337 /* FTMediaModel.swift */,
+				B589B0052570FAFC0045D337 /* FTStoryPreviewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B589AFD42570D46A0045D337 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B589AFD52570D4820045D337 /* FTStroyHeaderView.swift */,
+				B589AFD92570D4900045D337 /* FTStroyProcessView.swift */,
+				B589AFEB2570EEE90045D337 /* FTRetryButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B589AFDC2570DE800045D337 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B589AFDD2570DEAE0045D337 /* UIView+Extension.swift */,
+				B589AFEF2570F19C0045D337 /* UIImageView+Additions.swift */,
+				B589AFFD2570F4270045D337 /* UIImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B589AFF52570F3710045D337 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B589AFF62570F37E0045D337 /* FTStoryCache.swift */,
+				B589AFFA2570F3CC0045D337 /* FTImageRequestable.swift */,
+				B589AFF22570F2870045D337 /* FTStorySupport.swift */,
+				B589B0022570F6400045D337 /* FTVideoCacheManager.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B589B0082570FB750045D337 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B589B0092570FB8B0045D337 /* FTStoryPriviewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B589AF9E2570A57B0045D337 /* StroyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B589AFB32570A57F0045D337 /* Build configuration list for PBXNativeTarget "StroyDemo" */;
+			buildPhases = (
+				CD2CFD89CA6DFBF7D74CFE6D /* [CP] Check Pods Manifest.lock */,
+				B589AF9B2570A57B0045D337 /* Sources */,
+				B589AF9C2570A57B0045D337 /* Frameworks */,
+				B589AF9D2570A57B0045D337 /* Resources */,
+				385529BBC912E57DD6BA06B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StroyDemo;
+			productName = StroyDemo;
+			productReference = B589AF9F2570A57B0045D337 /* StroyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B589AF972570A57B0045D337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B589AF9E2570A57B0045D337 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B589AF9A2570A57B0045D337 /* Build configuration list for PBXProject "StroyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B589AF962570A57B0045D337;
+			productRefGroup = B589AFA02570A57B0045D337 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B589AF9E2570A57B0045D337 /* StroyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B589AF9D2570A57B0045D337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B589AFAF2570A57F0045D337 /* LaunchScreen.storyboard in Resources */,
+				B589AFAC2570A57F0045D337 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		385529BBC912E57DD6BA06B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StroyDemo/Pods-StroyDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StroyDemo/Pods-StroyDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StroyDemo/Pods-StroyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2CFD89CA6DFBF7D74CFE6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StroyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B589AF9B2570A57B0045D337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B589B0032570F6400045D337 /* FTVideoCacheManager.swift in Sources */,
+				B589AFE72570E5D60045D337 /* FTStroyPlayerView.swift in Sources */,
+				B589B0062570FAFC0045D337 /* FTStoryPreviewModel.swift in Sources */,
+				B589AFC12570A6570045D337 /* CubeAttributesAnimator.swift in Sources */,
+				B589AFDA2570D4900045D337 /* FTStroyProcessView.swift in Sources */,
+				B589AFD12570CCAE0045D337 /* FTMediaModel.swift in Sources */,
+				B589AFC42570A6570045D337 /* FTLayoutAttributesAnimator.swift in Sources */,
+				B589AFC22570A6570045D337 /* UIView+Anchor.swift in Sources */,
+				B589AFCD2570B15E0045D337 /* FTStoryPreviewCell.swift in Sources */,
+				B589AFF32570F2870045D337 /* FTStorySupport.swift in Sources */,
+				B589AFDE2570DEAE0045D337 /* UIView+Extension.swift in Sources */,
+				B589AFD62570D4820045D337 /* FTStroyHeaderView.swift in Sources */,
+				B589AFA72570A57B0045D337 /* ViewController.swift in Sources */,
+				B589AFEC2570EEE90045D337 /* FTRetryButton.swift in Sources */,
+				B589AFA32570A57B0045D337 /* AppDelegate.swift in Sources */,
+				B589AFF72570F37E0045D337 /* FTStoryCache.swift in Sources */,
+				B589AFC32570A6570045D337 /* FTAnimatedCollectionLayout.swift in Sources */,
+				B589AFCA2570A9F80045D337 /* FTStoryPreviewView.swift in Sources */,
+				B589B00A2570FB8B0045D337 /* FTStoryPriviewController.swift in Sources */,
+				B589AFFE2570F4270045D337 /* UIImageView+Extension.swift in Sources */,
+				B589AFF02570F19C0045D337 /* UIImageView+Additions.swift in Sources */,
+				B589AFFB2570F3CC0045D337 /* FTImageRequestable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B589AFAD2570A57F0045D337 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B589AFAE2570A57F0045D337 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B589AFB12570A57F0045D337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B589AFB22570A57F0045D337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B589AFB42570A57F0045D337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B2BF96E7374153EF3E12BE /* Pods-StroyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RH99AW8KG;
+				INFOPLIST_FILE = StroyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YY.StroyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B589AFB52570A57F0045D337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08C961B33195FC321712045 /* Pods-StroyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RH99AW8KG;
+				INFOPLIST_FILE = StroyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YY.StroyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B589AF9A2570A57B0045D337 /* Build configuration list for PBXProject "StroyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B589AFB12570A57F0045D337 /* Debug */,
+				B589AFB22570A57F0045D337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B589AFB32570A57F0045D337 /* Build configuration list for PBXNativeTarget "StroyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B589AFB42570A57F0045D337 /* Debug */,
+				B589AFB52570A57F0045D337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B589AF972570A57B0045D337 /* Project object */;
+}
